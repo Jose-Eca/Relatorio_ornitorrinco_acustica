@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ref_a32",
+    "tipo": "ref",
+    "a_mm": 32.0,
+    "N": null,
+    "instr": "Tira TODAS as colunas (coluna de som e microfone no sítio marcado). Referência para a = 32 mm."
+  },
+  {
+    "id": "a32_N10",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 10,
+    "instr": "Monta 4 × 10 colunas com a = 32 mm (centros separados por 4 pinos)."
+  },
+  {
+    "id": "a32_N9",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 9,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9."
+  },
+  {
+    "id": "a32_N8",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 8,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8."
+  },
+  {
+    "id": "a32_N7",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 7,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7."
+  },
+  {
+    "id": "a32_N6",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 6,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6."
+  },
+  {
+    "id": "a32_N5",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 5,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5."
+  },
+  {
+    "id": "a32_N4",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 4,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4."
+  },
+  {
+    "id": "a32_N3",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 3,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3."
+  },
+  {
+    "id": "a32_N2",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 2,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2."
+  },
+  {
+    "id": "a32_N1",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "N": 1,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1."
+  },
+  {
+    "id": "ref_a40",
+    "tipo": "ref",
+    "a_mm": 40.0,
+    "N": null,
+    "instr": "Tira TODAS as colunas (coluna de som e microfone no sítio marcado). Referência para a = 40 mm."
+  },
+  {
+    "id": "a40_N10",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 10,
+    "instr": "Monta 4 × 10 colunas com a = 40 mm (centros separados por 5 pinos)."
+  },
+  {
+    "id": "a40_N9",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 9,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9."
+  },
+  {
+    "id": "a40_N8",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 8,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8."
+  },
+  {
+    "id": "a40_N7",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 7,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7."
+  },
+  {
+    "id": "a40_N6",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 6,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6."
+  },
+  {
+    "id": "a40_N5",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 5,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5."
+  },
+  {
+    "id": "a40_N4",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 4,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4."
+  },
+  {
+    "id": "a40_N3",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 3,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3."
+  },
+  {
+    "id": "a40_N2",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 2,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2."
+  },
+  {
+    "id": "a40_N1",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "N": 1,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1."
+  },
+  {
+    "id": "ref_a48",
+    "tipo": "ref",
+    "a_mm": 48.0,
+    "N": null,
+    "instr": "Tira TODAS as colunas (coluna de som e microfone no sítio marcado). Referência para a = 48 mm."
+  },
+  {
+    "id": "a48_N10",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 10,
+    "instr": "Monta 4 × 10 colunas com a = 48 mm (centros separados por 6 pinos)."
+  },
+  {
+    "id": "a48_N9",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 9,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9."
+  },
+  {
+    "id": "a48_N8",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 8,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8."
+  },
+  {
+    "id": "a48_N7",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 7,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7."
+  },
+  {
+    "id": "a48_N6",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 6,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6."
+  },
+  {
+    "id": "a48_N5",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 5,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5."
+  },
+  {
+    "id": "a48_N4",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 4,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4."
+  },
+  {
+    "id": "a48_N3",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 3,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3."
+  },
+  {
+    "id": "a48_N2",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 2,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2."
+  },
+  {
+    "id": "a48_N1",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "N": 1,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1."
+  },
+  {
+    "id": "ref_a56",
+    "tipo": "ref",
+    "a_mm": 56.0,
+    "N": null,
+    "instr": "Tira TODAS as colunas (coluna de som e microfone no sítio marcado). Referência para a = 56 mm."
+  },
+  {
+    "id": "a56_N10",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 10,
+    "instr": "Monta 4 × 10 colunas com a = 56 mm (centros separados por 7 pinos)."
+  },
+  {
+    "id": "a56_N9",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 9,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9."
+  },
+  {
+    "id": "a56_N8",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 8,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8."
+  },
+  {
+    "id": "a56_N7",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 7,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7."
+  },
+  {
+    "id": "a56_N6",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 6,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6."
+  },
+  {
+    "id": "a56_N5",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 5,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5."
+  },
+  {
+    "id": "a56_N4",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 4,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4."
+  },
+  {
+    "id": "a56_N3",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 3,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3."
+  },
+  {
+    "id": "a56_N2",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 2,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2."
+  },
+  {
+    "id": "a56_N1",
+    "tipo": "cristal",
+    "a_mm": 56.0,
+    "N": 1,
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1."
+  }
+]

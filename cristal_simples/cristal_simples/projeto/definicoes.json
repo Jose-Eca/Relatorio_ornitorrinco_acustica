@@ -1,0 +1,12 @@
+{
+  "entrada": "1: Microphone (USB Audio) [MME]",
+  "saida": "4: Speakers (EMBERTON II) [MME]",
+  "reps": 5,
+  "dur": 10.0,
+  "amp": 0.3,
+  "temp_C": 20.5,
+  "a_mm": "32, 40, 48, 56",
+  "N": "10, 9, 8, 7, 6, 5,  4, 3, 2, 1",
+  "W": 4,
+  "simulacao": false
+}

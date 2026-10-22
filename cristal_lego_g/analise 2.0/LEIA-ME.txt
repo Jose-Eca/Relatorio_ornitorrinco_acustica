@@ -1,0 +1,126 @@
+Cristal sónico de LEGO — ANÁLISE 2.0 — análise conjunta ΓX (perpendicular) + ΓM (diagonal)
+==========================================================================================
+
+O QUE MUDOU EM RELAÇÃO A ../analise_conjunta (14/out)
+  - Banda de controlo (T0, ondulação) = 0.35–0.70 × c/(2a) NAS DUAS DIREÇÕES. Antes era
+    0.35–0.70 × f_B; em ΓM isso ia até 0.99 × c/(2a), dentro do hiato de ΓX (que o som oblíquo
+    também vê) e puxava T0 para baixo. Em ΓX não muda nada. Retas D(N) de ΓM: χ²/ν 2.9 → 1.05
+    (a = 48) e 3.6 → 1.9 (a = 40).
+  - Teoria: incerteza inclui truncatura da expansão (0.5 %); a razão α medido / teoria só aparece
+    quando a janela da profundidade está ≥ 80 % dentro do hiato teórico; nova comparação ΓX ↔ ΓM
+    (razão esperada 1.47–1.59, não √2; sem hiato completo).
+  - «Teoria e método»: ondas estacionárias nos bordos, problema de valores próprios, c_ef.
+  - EQUACOES.md: todas as equações, por ordem, com a explicação de cada uma.
+
+Windows: duplo clique em INICIAR.bat.        Sem janela: python app.py --sem-janela
+
+Esta app NÃO mede: lê as gravações que as duas apps de medição já fizeram e faz a mesma
+análise às duas direções. Só lê — não altera nem apaga nada nas pastas de dados.
+
+  ΓX  ..\..\cristal_simples\cristal_simples\projeto\dados
+  ΓM  ..\cristal_lego_g\projeto\dados
+  (se estiverem noutro sítio: ⚙ Pastas de dados)
+
+"🔄 Reler dados" volta a ler as pastas (apanha medições novas). "💾 Guardar tudo" grava em
+resultados\ os gráficos (PNG), resultados.txt, tabela.csv (uma linha por medição, com o
+orçamento de incerteza) e ajustes.csv (todos os ajustes: parâmetros, covariância, χ², ν, p).
+
+
+O QUE É IGUAL NAS DUAS DIREÇÕES
+  Tudo. A única coisa que muda é a distância d entre planos de tijolos perpendiculares ao som:
+        f_B = c / (2d),     d = a (ΓX),    d = a/√2 (ΓM)
+  As janelas do hiato são definidas em unidades de f_B, por isso são as mesmas:
+    banda de controlo   0.35–0.70 × c/(2a), NAS DUAS DIREÇÕES (por baixo do 1.º hiato da rede
+                        em qualquer direção, que é o de ΓX; em ΓM, 0.35–0.70 × f_B apanhava o
+                        hiato de ΓX e puxava T0 para baixo — corrigido a 14/out)
+    profundidade        0.90–1.10 × f_B   (f_B ± 10 %)
+    hiato               zona com T < T0 − 6 dB que toca em 0.75–1.25 × f_B
+    "fecha"             se T voltar a subir acima do limiar antes de 1.5 × f_B
+
+  (As apps de medição usavam janelas diferentes em ΓX e ΓM, por isso os números daqui não
+  são exatamente os delas. A grandeza principal passa a ser f_inf nas duas direções, porque
+  é a única frequência que existe sempre: na diagonal T não volta a subir e não há f_sup.)
+
+
+AS CONTAS, POR ORDEM
+  1. Espectro de cada repetição: Welch (Hann, 4096 pontos, 50 %), troço 0.8–10.3 s.
+     Repetições com saturação ou cortes do Bluetooth são postas de parte.
+  2. T(f) = 10·log10(P_cristal / P_ref), espectros suavizados em potência (1/6 de oitava).
+  3. T0 = mediana de T na banda de controlo (0.35–0.70 × c/(2a)). Absorve mudanças de volume.
+     Ondulação = desvio-padrão robusto (1.4826 × MAD) de T na banda de controlo. Aí T devia
+     ser plano; o que sobra é o "ruído" de T(f) que as repetições não veem.
+  4. Profundidade D = T0 − média de T em f_B ± 10 %.
+     f_inf, f_sup = cruzamentos do limiar (interpolados); f_centro e largura só se fechar.
+  5. Referência. Candidatas: todas as referências da mesma sessão (mesma pasta, mesmo dia) —
+     a referência é a montagem sem tijolos, não depende de a.
+       modo "bloco" (por omissão): usa-se a referência do próprio bloco (mesmo a); havendo
+         duas (ref_aXX e ref_aXX_fim), a que deixa a banda de controlo mais plana.
+       modo "sessão": a melhor de todas as candidatas, mesmo que seja de outro a.
+     Trocar de modo na caixa "Referência" é um teste de robustez: os resultados não devem
+     mudar mais do que as incertezas.
+     Medição sem referência do mesmo dia: fica na tabela, não entra em nenhum ajuste.
+     Medição "com cristal" igual a uma referência (< 0.5 dB em toda a banda): foi gravada
+     sem tijolos (MEDIR sem passo selecionado faz "o próximo") e é posta de parte.
+
+
+INCERTEZAS
+  De cada número:   σ² = σ_estat² + σ_ond² + σ_ref²  (+ σ_res² nas frequências)
+
+    σ_estat  desvio-padrão entre repetições / √n. É quase sempre desprezável: as 5
+             repetições são a mesma montagem, só veem o ruído da gravação.
+    σ_ond    a ondulação propagada para o número:
+               profundidade:  ondulação × √(π/2·1/n_base + 1/n_jan) = 0.91 × ondulação
+                              (n = largura da janela / largura da suavização = nº de pontos
+                              independentes; π/2 porque T0 é uma mediana)
+               bordos:        ondulação / |dT/df| no cruzamento — bordo pouco inclinado,
+                              frequência mal definida
+               f_centro: ½√(σ_inf² + σ_sup²);   largura: √(σ_inf² + σ_sup²)
+    σ_ref    dispersão do número calculado com cada referência candidata, em torno do
+             valor central, com pesos 1/ondulação² (uma referência má pesa pouco).
+             Com uma só candidata não se pode estimar ("?").
+    σ_res    Δf/√12 = 3.4 Hz (resolução do espectro).
+
+  De cada bloco (um a, média ponderada dos N ≥ 4):   σ² = σ_disp² + σ_sis²
+    σ_disp   erro da média tirado da dispersão observada entre os N
+    σ_sis    média das partes σ_ond e σ_ref: a referência e a montagem são as mesmas para
+             todos os N do bloco, por isso esta parte NÃO diminui ao fazer a média.
+    Um bloco só tem f_sup, f_centro e largura se o hiato fechar em mais de metade dos N.
+
+  Fixas: σ_a = 0.1 mm (posição dos tijolos), σ_T = 1 °C → σ_c = 0.6 m/s.
+  Para as mudar: constantes no início de analise.py.
+
+
+REGRESSÕES
+  Mínimos quadrados ponderados (pesos 1/σ²), solução fechada. De cada ajuste saem:
+    parâmetros e incertezas pela matriz de covariância; χ², ν, χ²/ν e valor-p.
+    Se χ²/ν > 1 as incertezas dos parâmetros vêm multiplicadas por S = √(χ²/ν) (o texto diz
+    quando). Se χ²/ν < 1 não se mexe: nunca se encolhem incertezas.
+    Incerteza em x (a) por variância efetiva: σ² = σ_y² + (m·σ_x)², minimizando χ²(m, b).
+    Nos gráficos: faixa = ±1σ da reta; painel de baixo = resíduos / σ.
+
+  1. Profundidade vs N:    D = α·N + b,  por direção e por a.   α em dB/fila e em dB/cm.
+     b deve ser compatível com 0 (sem filas não há atenuação): o texto dá z = |b|/σ_b.
+  2. Frequência vs 1/(2d): f = m·x + b,  x = 1/(2d),  por direção, para f_inf e f_centro.
+     O declive é uma velocidade; se f fosse exatamente f_B dava c. Faz-se a reta livre
+     (≥ 3 valores de a) e a reta pela origem (≥ 2). As duas direções no mesmo gráfico.
+  3. Comparação para o mesmo a:  f_inf(ΓM)/f_inf(ΓX) contra √2, e
+     f_sup(ΓX) − f_inf(ΓM): se for > 0 os dois hiatos sobrepõem-se (hiato completo).
+
+  Como ler: p < 0.05 quer dizer que a reta não descreve os pontos dentro das barras de erro
+  (modelo a mais simples do que a realidade, ou incertezas pequenas demais). χ²/ν ≪ 1 quer
+  dizer barras de erro largas ou correlacionadas (na profundidade vs N é o caso: a parte da
+  referência é comum a todos os N e não afeta o declive).
+
+  As regressões foram verificadas contra numpy.polyfit, scipy.optimize.curve_fit e
+  scipy.odr, e a cobertura das incertezas por simulação.
+
+
+FICHEIROS
+  app.py        janela (tkinter)         analise.py   as contas (sem interface)
+  graficos.py   os gráficos              config.json  pastas e modo (criado pela app)
+  documento.py  o texto do separador «Teoria e método» (teoria, medição, análise, incertezas);
+                "Guardar tudo" grava-o em resultados\teoria_e_metodo.txt
+  teoria.py     bandas teóricas (ondas planas) e comparação com as medições:
+                python teoria.py  →  resultados	eoria.txt e teoria_vs_medido.png
+  _cache\       espectros já calculados (pode apagar-se; a app volta a calculá-los)
+  resultados\   o que "Guardar tudo" grava

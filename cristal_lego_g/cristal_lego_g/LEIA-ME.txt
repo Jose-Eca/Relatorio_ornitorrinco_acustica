@@ -1,0 +1,35 @@
+Cristal sónico de LEGO — rede quadrada com g pinos livres, N de 11 a 1 filas
+============================================================================
+
+Windows: duplo clique em INICIAR.bat.
+
+MÉTODOS (analise.py)
+  Ruído branco, troço 0.8–10.3 s, Welch (Hann, 4096, 50 %), média das referências da
+  sessão, suavização em 1/6 de oitava, nível base T0, limiar −6 dB, incertezas σ_estat e
+  σ_ref. Deixem a duração em 10 s.
+
+O QUE MUDOU (12/out)
+  - Diagonal (ΓM): o nível base T0 vem SÓ de baixo do hiato (0.15–0.6 × f_B). Acima de
+    f_B = c/(√2·a) as filas também difratam o som para os lados, por isso T não volta a
+    subir ("hiato aberto") — é física, não erro.
+    Grandeza principal em ΓM: f_inf = bordo de baixo do hiato (≈ c/(√2·a)).
+    Profundidade em ΓM = atenuação média em 1.05–1.35 × f_B.
+    "Resultados": f_inf vs 1/a  →  c = √2 × declive.   (ΓX continua: f_centro, c = 2 × declive)
+  - Controlo de qualidade de TODAS as repetições: saturação, cortes do Bluetooth (postas
+    de parte), nível diferente entre repetições, zumbido de 50 Hz, nível na banda.
+    Os avisos aparecem logo a seguir a medir.
+  - Só conta a ÚLTIMA medição de cada passo (o que vai para _antigos não conta).
+  - Cada bloco de g acaba com uma 2.ª referência (ref_a32_fim, ...): mede a deriva e
+    dá σ_ref. Sem ela σ_ref fica "nan".
+  - Modo simulação grava em projeto/dados_simulacao (nunca mistura com dados reais).
+  - "Testar som" mede o nível na banda 0.5–12 kHz (o pico engana por causa do zumbido).
+  - As versões anteriores ficaram em analise.py.bak e app.py.bak.
+
+ANTES DE MEDIR (o mais importante)
+  1. Coluna e microfone presos com fita, sempre no mesmo sítio e orientação. Não lhes
+     toquem entre a referência e o fim do bloco (mexer 1 cm muda o espectro ±8 dB).
+  2. Temperatura do lab em ⚙ Definições.
+  3. "Testar som": ruído na banda −30 a −15 dBFS e pico < 0.8.
+
+g = 1 na diagonal põe o hiato em ~10 kHz e o lado de cima sai da banda (até 12 kHz):
+por isso o plano usa g = 2, 3, 4.

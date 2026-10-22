@@ -1,0 +1,35 @@
+TEORIA (cristal 2D infinito, hastes rígidas quadradas de 15.8 ± 0.1 mm; ondas planas) vs MEDIÇÃO
+
+ΓX a = 32 mm   (f_B = 5367 Hz; difração lateral a partir de 10735 Hz = 2.00 f_B)
+    bordo de baixo: teoria 3892 ± 22 Hz;  medido 3806 ± 84 Hz (n = 7);  medido/teoria = 0.978,  z = 1.0
+    bordo de cima : teoria 6037 ± 30 Hz;  medido 5923 ± 191 Hz (n = 7);  medido/teoria = 0.981,  z = 0.6
+    atenuação em f_B ± 10 %: teoria 5.43 dB/fila (máx. 6.26);  medido 0.81 ± 0.39 dB/fila  (0.15 × teoria)
+ΓX a = 40 mm   (f_B = 4294 Hz; difração lateral a partir de 8588 Hz = 2.00 f_B)
+    bordo de baixo: teoria 3387 ± 18 Hz;  medido 3586 ± 151 Hz (n = 7);  medido/teoria = 1.059,  z = 1.3
+    bordo de cima : teoria 4752 ± 24 Hz;  medido 5117 ± 227 Hz (n = 6);  medido/teoria = 1.077,  z = 1.6
+    atenuação em f_B ± 10 %: teoria 3.98 dB/fila (máx. 4.72);  medido 1.98 ± 0.41 dB/fila  (0.50 × teoria)
+ΓX a = 48 mm   (f_B = 3578 Hz; difração lateral a partir de 7156 Hz = 2.00 f_B)
+    bordo de baixo: teoria 2988 ± 16 Hz;  medido 2969 ± 102 Hz (n = 7);  medido/teoria = 0.994,  z = 0.2
+    bordo de cima : teoria 3880 ± 20 Hz;  medido 4230 ± 135 Hz (n = 7);  medido/teoria = 1.090,  z = 2.6
+    atenuação em f_B ± 10 %: teoria 2.75 dB/fila (máx. 3.61);  medido 1.45 ± 0.29 dB/fila  (0.53 × teoria)
+ΓX a = 56 mm   (f_B = 3067 Hz; difração lateral a partir de 6134 Hz = 2.00 f_B)
+    bordo de baixo: teoria 2666 ± 14 Hz;  medido 2917 ± 62 Hz (n = 7);  medido/teoria = 1.094,  z = 3.9
+    bordo de cima : teoria 3271 ± 16 Hz;  medido 3722 ± 124 Hz (n = 7);  medido/teoria = 1.138,  z = 3.6
+    atenuação em f_B ± 10 %: teoria 1.92 dB/fila (máx. 2.82);  medido 1.53 ± 0.11 dB/fila  (0.80 × teoria)
+ΓM a = 32 mm   (f_B = 7584 Hz; difração lateral a partir de 7584 Hz = 1.00 f_B)
+    bordo de baixo: teoria 6180 ± 31 Hz;  medido 5500 ± 271 Hz (n = 8);  medido/teoria = 0.890,  z = 2.5
+    bordo de cima : teoria 6990 ± 36 Hz;  medido: não fecha (fecha em 3 de 8 medições)
+    atenuação em f_B ± 10 %: teoria 0.14 dB/fila (máx. 1.45);  medido 0.73 ± 0.20 dB/fila  (só 14 % da janela f_B ± 10 % está no hiato teórico: não se comparam)
+ΓM a = 40 mm   (f_B = 6067 Hz; difração lateral a partir de 6067 Hz = 1.00 f_B)
+    bordo de baixo: teoria 5109 ± 26 Hz;  medido 4557 ± 173 Hz (n = 8);  medido/teoria = 0.892,  z = 3.1
+    bordo de cima : teoria 5818 ± 30 Hz;  medido 7149 ± 410 Hz (n = 5);  medido/teoria = 1.229,  z = 3.2
+    atenuação em f_B ± 10 %: teoria 0.48 dB/fila (máx. 1.96);  medido 0.81 ± 0.28 dB/fila  (só 29 % da janela f_B ± 10 % está no hiato teórico: não se comparam)
+ΓM a = 48 mm   (f_B = 5056 Hz; difração lateral a partir de 5056 Hz = 1.00 f_B)
+    bordo de baixo: teoria 4385 ± 22 Hz;  medido 4040 ± 93 Hz (n = 8);  medido/teoria = 0.921,  z = 3.6
+    bordo de cima : teoria 4942 ± 25 Hz;  medido: não fecha (fecha em 4 de 8 medições)
+    atenuação em f_B ± 10 %: teoria 0.62 dB/fila (máx. 1.85);  medido 1.30 ± 0.17 dB/fila  (só 38 % da janela f_B ± 10 % está no hiato teórico: não se comparam)
+
+ΓX ↔ ΓM, mesmo a (teoria):
+    a = 32 mm: f_inf(ΓM)/f_inf(ΓX) = 1.588 (Bragg puro: 1.414);  medido 1.445 ± 0.078 (z = 1.8);  f_sup(ΓX) − f_inf(ΓM) = -143 Hz → SEM hiato completo no cristal infinito
+    a = 40 mm: f_inf(ΓM)/f_inf(ΓX) = 1.508 (Bragg puro: 1.414);  medido 1.271 ± 0.072 (z = 3.3);  f_sup(ΓX) − f_inf(ΓM) = -357 Hz → SEM hiato completo no cristal infinito
+    a = 48 mm: f_inf(ΓM)/f_inf(ΓX) = 1.467 (Bragg puro: 1.414);  medido 1.360 ± 0.056 (z = 1.9);  f_sup(ΓX) − f_inf(ΓM) = -505 Hz → SEM hiato completo no cristal infinito

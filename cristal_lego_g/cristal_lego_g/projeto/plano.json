@@ -1,0 +1,353 @@
+[
+  {
+    "id": "ref_a32",
+    "tipo": "ref",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira TODOS os tijolos. Coluna de som e microfone no sítio marcado e PRESOS COM FITA — não lhes toquem até à referência de fim deste bloco. Referência para g = 2 (a = 32 mm)."
+  },
+  {
+    "id": "a32_N11",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 11,
+    "dir": "ΓM",
+    "instr": "Monta a rede com 2 pinos livres entre tijolos (a = 32 mm) e N = 11 filas na diagonal: filas alternadas de 4 e 3 tijolos (A = 4, B = 3), 1.ª fila do lado da coluna = B; 5 filas A + 6 filas B = 38 tijolos, simétrico em relação ao eixo."
+  },
+  {
+    "id": "a32_N10",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 10,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 10 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a32_N9",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 9,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a32_N8",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 8,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a32_N7",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 7,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a32_N6",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 6,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a32_N5",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 5,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a32_N4",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 4,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a32_N3",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 3,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a32_N2",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 2,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a32_N1",
+    "tipo": "cristal",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": 1,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "ref_a32_fim",
+    "tipo": "ref",
+    "a_mm": 32.0,
+    "g": 2.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira os tijolos que restam SEM mexer na coluna nem no microfone. 2.ª referência de g = 2: mede a deriva da montagem e dá a incerteza σ_ref."
+  },
+  {
+    "id": "ref_a40",
+    "tipo": "ref",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira TODOS os tijolos. Coluna de som e microfone no sítio marcado e PRESOS COM FITA — não lhes toquem até à referência de fim deste bloco. Referência para g = 3 (a = 40 mm)."
+  },
+  {
+    "id": "a40_N11",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 11,
+    "dir": "ΓM",
+    "instr": "Monta a rede com 3 pinos livres entre tijolos (a = 40 mm) e N = 11 filas na diagonal: filas alternadas de 4 e 3 tijolos (A = 4, B = 3), 1.ª fila do lado da coluna = B; 5 filas A + 6 filas B = 38 tijolos, simétrico em relação ao eixo."
+  },
+  {
+    "id": "a40_N10",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 10,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 10 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a40_N9",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 9,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a40_N8",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 8,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a40_N7",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 7,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a40_N6",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 6,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a40_N5",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 5,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a40_N4",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 4,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a40_N3",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 3,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a40_N2",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 2,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a40_N1",
+    "tipo": "cristal",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": 1,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "ref_a40_fim",
+    "tipo": "ref",
+    "a_mm": 40.0,
+    "g": 3.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira os tijolos que restam SEM mexer na coluna nem no microfone. 2.ª referência de g = 3: mede a deriva da montagem e dá a incerteza σ_ref."
+  },
+  {
+    "id": "ref_a48",
+    "tipo": "ref",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira TODOS os tijolos. Coluna de som e microfone no sítio marcado e PRESOS COM FITA — não lhes toquem até à referência de fim deste bloco. Referência para g = 4 (a = 48 mm)."
+  },
+  {
+    "id": "a48_N11",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 11,
+    "dir": "ΓM",
+    "instr": "Monta a rede com 4 pinos livres entre tijolos (a = 48 mm) e N = 11 filas na diagonal: filas alternadas de 4 e 3 tijolos (A = 4, B = 3), 1.ª fila do lado da coluna = B; 5 filas A + 6 filas B = 38 tijolos, simétrico em relação ao eixo."
+  },
+  {
+    "id": "a48_N10",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 10,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 10 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a48_N9",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 9,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 9 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a48_N8",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 8,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 8 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a48_N7",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 7,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 7 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a48_N6",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 6,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 6 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a48_N5",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 5,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 5 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a48_N4",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 4,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 4 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a48_N3",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 3,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 3 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "a48_N2",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 2,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 2 (3 tijolos); a última fila passa a ser A (4 tijolos)."
+  },
+  {
+    "id": "a48_N1",
+    "tipo": "cristal",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": 1,
+    "dir": "ΓM",
+    "instr": "Tira filas do lado do MICROFONE até ficarem N = 1 (4 tijolos); a última fila passa a ser B (3 tijolos)."
+  },
+  {
+    "id": "ref_a48_fim",
+    "tipo": "ref",
+    "a_mm": 48.0,
+    "g": 4.0,
+    "N": null,
+    "dir": "ΓM",
+    "instr": "Tira os tijolos que restam SEM mexer na coluna nem no microfone. 2.ª referência de g = 4: mede a deriva da montagem e dá a incerteza σ_ref."
+  }
+]
